@@ -1,0 +1,157 @@
+<template>
+  <section class="my-5 py-5">
+    <h1 class="font-weight-bold text-center">Career</h1>
+    <hr class="w-25" />
+    <p class="lead grey-text text-center mb-5">
+      Make a professional career with, in a exciting work environment with a young and experienced team. Below you will find our career opportunities. You can also contact us directly for more detailed opportunities.
+    </p>
+    <div class="card-deck">
+      <div class="card box-shadow" data-aos="fade-right">
+        <div class="card-body">
+          <i class="fa fa-3x fa-briefcase mx-auto d-block text-center mb-3" aria-hidden="true"></i>
+          <h5 class="card-title text-center">Full-Stack Software Developer</h5>
+          <hr />
+          <p class="card-text">
+            Software Developers with affinity with Javascript-based client interactive data visualization libraries like d3.js, Node.js and Vue.js. The candidate needs to have  AGILE/SCRUM project experience.
+            <a role="button" @click="fullStackDeveloperModal = true">[Read more]</a>
+          </p>
+        </div>
+        <a href="mailto:connect@pranageo.com" class="btn btn-melda-orange">
+          Apply now
+        </a>
+      </div>
+      <div class="card box-shadow" data-aos="fade-up">
+        <div class="card-body">
+          <i class="fa fa-3x fa-briefcase mx-auto d-block text-center mb-3" aria-hidden="true"></i>
+          <h5 class="card-title text-center">Data Scientist</h5>
+          <hr />
+          <p class="card-text">
+            We are looking for a data scientist that will help us discover the customer information hidden in vast amounts of data, and help us make smarter decisions to deliver even better products. Your primary focus will be in applying data mining techniques, doing statistical analysis, and building high quality prediction systems integrated with our products. 
+          </p>
+        </div>
+        <a href="mailto:connect@pranageo.com" class="btn btn-melda-orange">
+          Apply now
+        </a>
+      </div>
+      <div class="card box-shadow" data-aos="fade-left">
+        <div class="card-body">
+          <i class="fa fa-3x fa-briefcase mx-auto d-block text-center mb-3" aria-hidden="true"></i>
+          <h5 class="card-title text-center">Internship</h5>
+          <hr />
+          <p class="card-text">
+            Are you a student searching an internship? We are seeking candidates for an internship in our company. You will advance your web programming or data science skills. Please contact us if you would like to acquire experience in data-driven, scientific applications.
+          </p>
+        </div>
+        <a href="mailto:connect@pranageo.com" class="btn btn-melda-orange">
+          Apply now
+        </a>
+      </div>
+    </div>
+    <div class="mt-5" data-aos="fade-up">
+      <h4>Perks & Benefits</h4>
+      <hr />
+      <ul class="list-group">
+        <li class="list-group-item">
+          <i class="fa fa-clock"></i> Our values are based on time and location independent working
+        </li>
+        <li class="list-group-item">
+          <i class="fas fa-money-bill"></i> Salary is in line with experience and core values
+        </li>
+        <li class="list-group-item">
+          <i class="fa fa-globe"></i> We have a worldwide customer base
+        </li>
+        <li class="list-group-item">
+          <i class="fas fa-laptop"></i> Opportunity to work from international location
+        </li>
+        <li class="list-group-item"><i class="fas fa-glass-cheers"></i> Company parties!</li>
+        <li class="list-group-item">
+          <i class="fa fa-plane"></i> Our team members have chance to travel abroad for training, conferences and other kind of events
+        </li>
+      </ul>
+    </div>
+    <modal v-if="fullStackDeveloperModal" @close="fullStackDeveloperModal = false">
+      <div slot="body">
+        <h2>Full-Stack Software Developer</h2>
+        <hr />
+        <h3>Position Description</h3>
+        <p>
+          PranaGEO is currently seeking a Full-Stack Software Developer with AGILE/SCRUM project experience for working in International projects.
+        </p>
+        <ul>
+          <li>Full/Part Time: Full Time</li>
+          <li>Regular/Temporary: Regular</li>
+          <li>Start date: As soon as you are available</li>
+        </ul>
+        <h3>Duties & Responsibilities</h3>
+        <p>
+          The successful candidate will be an experienced, highly motivated self-starter with the ability to develop. He/she will work directly with our international clients and guided by our Chief Science Officer.
+        </p>
+        <h3>Requirements</h3>
+        <ul>
+          <li>
+            At least a B.S. degree in Software Engineering / Computer Science / Mathematics or related quantitative area.    
+          </li>
+          <li>AGILE/SCRUM software project management skills is a definitive plus.</li>
+          <li>
+            Affinity with Javascript-based client interactive data visualization libraries like  d3.js, Node.js and Vue.js is expected.
+          </li>
+          <li>Experience with hybrid mobile app development is a plus.</li>
+          <li>Hands-on skills with database backends Neo4j and PostgreSQL are an advantage</li>
+          <li>
+            Ability to solve client-server communication problems within the modern scalable SaaS paradigm.
+            
+          </li>
+          <li>Knowledge of R language and past work experience with geospatial data is a plus.</li>
+          <li>
+            Excellent written and verbal communication skills in English is required. Affinity with Turkish is a plus.
+          </li>
+          <li>A valid Turkish work permit.</li>
+        </ul>
+        <h3>Working Conditions</h3>
+        <ul>
+          <li>The company is located in the beautiful Turkish mediterranean riviera, Bodrum.</li>
+          <li>Flexible working hours.</li>
+          <li>
+            After having demonstrated independent working abilities, there are possibilities of working from a (international) remote location with regular travels to Bodrum, Turkey.   
+          </li>
+          <li>
+            The salary will be proportional to the qualifications and work experience of the candidate.
+          </li>
+          <li>PranaGEO will be able to provide basic housing facility in Bodrum.</li>
+        </ul>
+        <p>Please send your CV and application letter in English.</p>
+      </div>
+
+      <div slot="footer">
+        <a href="mailto:connect@pranageo.com" class="btn btn-melda-orange">
+          Apply now
+        </a>
+        <button class="btn btn-danger" @click="fullStackDeveloperModal = false">
+          Close
+        </button>
+      </div>
+    </modal>
+  </section>
+</template>
+
+<script>
+import Modal from '../../../../components/modal.vue'
+
+export default {
+  components: {
+    Modal,
+  },
+
+  data() {
+    return {
+      fullStackDeveloperModal: false,
+    }
+  },
+}
+</script>
+
+<style scoped>
+.box-shadow {
+  box-shadow: 0px 50px 80px 0px rgba(15, 19, 25, 0.1);
+}
+</style>
