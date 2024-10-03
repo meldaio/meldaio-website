@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping and Return Policy</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1, h2, p {
+            color: #333333;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.6;
+        }
+
+        .important {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Shipping and Return Policy</h1>
+        <p><strong>Last update:</strong> 12 - 03 - 2020</p>
+
+        <h2>1. RETURNS</h2>
+        <h3>1.1 For software licenses:</h3>
+        <p>Our free edition of melda.io can be accessed and used freely from our site app.melda.io. Users should test this version before purchasing other versions to ensure it fulfills their needs. It is also advised that customers contact us before purchasing for demo requests and technical questions.</p>
+        <p>Under these conditions, unfortunately, we can’t offer you a refund or exchange after purchasing software licenses.</p>
+
+        <h2>2. SHIPPING</h2>
+        <p>The software licenses will be provided automatically after successful payment and will not be shipped.</p>
+
+        <h2>3. ABOUT US</h2>
+        <p>We are PranaGEO Ltd. Şti. and our address is Eski Çesme Mah. Ergün Soykan Sokak No. 4/3, 48400 Bodrum / Muğla / Türkiye. You can contact us at <a href="mailto:connect@pranageo.com">connect@pranageo.com</a>.</p>
+    </div>
+</body>
+</html>
