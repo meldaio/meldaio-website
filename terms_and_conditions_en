@@ -56,12 +56,26 @@
          .section-number {
             margin-right: 10px; 
         }
+
+        .image-container {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 20px; 
+        }
+        
+        .image-container img {
+            max-width: 100%; 
+            height: auto;
+        }
             
     </style>
 </head>
 <body>
 
-    <img src="https://raw.githubusercontent.com/meldaio/meldaio-website/refs/heads/main/images/PranaGEO_LOGO.png" alt="PranaGEO Logo">
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/meldaio/meldaio-website/refs/heads/main/images/PranaGEO_LOGO.png" alt="PranaGEO Logo">
+    </div>
 
     <div class="container">
 
