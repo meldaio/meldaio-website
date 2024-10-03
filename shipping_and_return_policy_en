@@ -42,9 +42,25 @@
         .important {
             font-weight: bold;
         }
+    .    image-container {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 20px; 
+        }
+        
+        .image-container img {
+            max-width: 100%; 
+            height: auto;
+        }
+            
     </style>
 </head>
 <body>
+
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/meldaio/meldaio-website/refs/heads/main/images/PranaGEO_LOGO.png" alt="PranaGEO Logo">
+    </div>
     <div class="container">
         <h1>Shipping and Return Policy</h1>
         <p><strong>Last update:</strong> 12 - 03 - 2020</p>
